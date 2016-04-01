@@ -16,3 +16,7 @@ Xgboost中两个我之前没有用过的特性，一个是[用户自定义代价
 - 2016-03-11
 
 [Imbalanced data – Finding Waldo](http://www.financealleycat.com/?p=69)  这篇文章讲了不平衡数据的处理，都是常见的方法（简单采样，合成采样），但是文章最后讲了一个很有趣的处理方式：如果不平衡数据中某个类别的数据非常少，那么也可以把分类问题当成异常值检测的问题（ [anomaly detection](https://en.wikipedia.org/wiki/Anomaly_detection)），只需要检测出异常值就行了。
+
+- 2016-04-01
+
+看了large-scale svm相关的内容，发现一个不错的工具[EnsembleSVM](https://github.com/claesenm/EnsembleSVM)，在准确率不下降的同时减小计算复杂度，对应论文[EnsembleSVM: A Library for Ensemble Learning Using Support Vector Machines](http://jmlr.org/papers/volume15/claesen14a/claesen14a.pdf)，另外一篇cite比较多的论文[Making large-scale support vector machine learning practical](http://dl.acm.org/citation.cfm?id=299104)
